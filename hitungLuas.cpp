@@ -9,4 +9,6 @@ int main(){
 
     cout << "Masukkan lebar: ";
     cin >> l;
+
+    luas = p*l;
 }
