@@ -8,12 +8,12 @@ void input(){
     cin >> r;
 }
 
-float luas(float a, float b){
-    return a*(b*b);
+float luas(float a){
+    return phi*(a*a);
 }
 
 void output(){
-    cout << "Luas = " << luas(phi, r);
+    cout << "Luas = " << luas(r);
 }
 
 int main(){
